@@ -28,7 +28,7 @@ class BarkScraper:
 
         print("Opening Bark homepage...")
 
-        self.driver.get("https://www.bark.com")
+        self.driver.get("https://www.bark.com/sellers/leads")
 
         time.sleep(5)
 
