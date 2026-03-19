@@ -1,23 +1,50 @@
-# Bark AI Lead Evaluation Agent
+# 🚀 Bark AI Agent
 
-This project demonstrates a Proof-of-Concept AI agent that automates the discovery and evaluation of service leads.
+## 📌 Overview
+This project implements a **Bark AI Agent** that automates the process of:
+- Lead ingestion (simulated via API/webhook)
+- Lead scoring
+- AI-based pitch generation
+- Visualization through a React dashboard
 
-Features:
-- Browser automation using Selenium
-- Lead evaluation scoring (0–1)
-- Personalized pitch generation
+It demonstrates a complete **end-to-end workflow** from lead input to actionable output.
 
-How to run:
+---
 
-pip install -r requirements.txt
+## ⚙️ Tech Stack
 
-python main.py
+- **Backend:** FastAPI (Python)
+- **Frontend:** React.js
+- **Integration:** Simulated Bark API/Webhook
+- **Tools:** Axios, Uvicorn
 
-## Setup
+---
 
-1. Create a `config.py` file with your credentials:
+## 🔄 Workflow
 
-```python
-OPENAI_API_KEY = "YOUR_API_KEY"
-BARK_EMAIL = "your_email"
-BARK_PASSWORD = "your_password"
+Bark Lead (Simulated)  
+→ Backend Processing (FastAPI)  
+→ Lead Scoring  
+→ Pitch Generation  
+→ API Response  
+→ React Dashboard Display  
+
+---
+
+## ✨ Features
+
+- 📥 Lead ingestion (API/webhook simulation)
+- 📊 Automated lead scoring
+- 💬 AI-generated personalized pitch
+- 🖥️ Interactive React dashboard
+- 🔗 End-to-end integration
+
+---
+
+## 🚀 How to Run
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/AAAAA5464/bark-ai-agent.git
+cd bark-ai-agent
